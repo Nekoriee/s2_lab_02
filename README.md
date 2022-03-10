@@ -4,8 +4,16 @@ testtype=".txt"
 EXPORT testype
 ```
 
-# 2. source ~/.bashrc
+# 2. Обновить .bashrc:
+```
+source ~/.bashrc
+```
+# 3. Предоставить права:
+```
+chmod +x check_type.sh
+```
 
-# 3. chmod +x check_type.sh
-
-# 4. ./check_type.sh "test*" $testtype
+# 4. Запустить скрипт:
+```
+./check_type.sh "test*" $testtype
+```
